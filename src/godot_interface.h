@@ -15,6 +15,8 @@ protected:
 public:
 	GodotInterface() = default;
 	~GodotInterface() override = default;
-
 	void print_type(const Variant &p_variant) const;
+
+	// Test Kompute interface (prints to verify interface is working)
+	void test_kompute_interface();
 };
